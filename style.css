@@ -1,0 +1,29 @@
+:root{
+	--color-hpp: #114357;
+    --color-hps: #F29492;
+	--color-primary:#C02425;
+	--color-secondary:#F0CB35;
+}
+body{
+	font-family: "Luicda Handwriting", Cursive !important;
+}
+.banner-head{
+	text-align:right;
+	color:white;
+	padding-bottom: 30px;
+	
+}
+.banner-right{
+	margin-top:40px;
+}
+.banner-right > a{
+	margin-left: 30px;
+}
+.banner-anchor:hover{
+	background-color:yellow;
+	text-decoration:none;
+	font-size: 30px;
+}
+.menus{
+	background: linear-gradient(90deg, var(--color-hpp), var(--color-hps));
+}
